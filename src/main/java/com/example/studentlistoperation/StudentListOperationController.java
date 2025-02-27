@@ -25,7 +25,7 @@ public class StudentListOperationController {
     @javafx.fxml.FXML
     private DatePicker dateOfBirth;
     @javafx.fxml.FXML
-    private ComboBox<String> mejorComboBox;
+    private ComboBox<String> majorComboBox;
     @javafx.fxml.FXML
     private TableColumn<Student, LocalDate> dobTableColumn;
     @javafx.fxml.FXML
@@ -37,6 +37,7 @@ public class StudentListOperationController {
 
     @javafx.fxml.FXML
     public void initialize() {
+        majorComboBox.getItems().addAll("CSE", "EEE", "ETE", "BBA");
     }
 
     @javafx.fxml.FXML
