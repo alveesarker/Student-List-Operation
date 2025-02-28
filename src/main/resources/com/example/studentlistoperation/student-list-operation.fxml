@@ -39,7 +39,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
         </Button>
-        <TableView fx:id="studentTableView" blendMode="HARD_LIGHT" layoutX="51.0" layoutY="354.0" prefHeight="270.0" prefWidth="742.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 3; -fx-background-radius: 5;">
+        <TableView fx:id="studentTableView" layoutX="51.0" layoutY="354.0" prefHeight="270.0" prefWidth="742.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 3; -fx-background-radius: 5;">
             <columns>
                 <TableColumn fx:id="idTableColumn" prefWidth="77.5999984741211" text="ID" />
                 <TableColumn fx:id="nameTableColumn" prefWidth="260.0000305175781" text="Name" />
